@@ -202,6 +202,19 @@ main {
 }
 
 
+/* footer styles */
+footer p {
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    margin: 130px 240px 216px 240px;
+    text-align: center;
+    padding: 39px 410px 38px;
+    font-size: 1.25rem;
+    color: #424242;
+}
+
+
 
 /* responsive media queries */
 /* mobile devices */
@@ -241,6 +254,11 @@ main {
         position: static;
         max-width: 300px;
     }
+
+    footer p {
+        margin: 100px auto 20px;
+        padding: 20px;
+    }
 }
 
 
@@ -255,5 +273,10 @@ main {
     .sponsors-img-container,
     .features {
         flex-direction: column;
+    }
+    
+    footer p {
+        margin: 100px auto 20px;
+        padding: 20px;
     }
 }
