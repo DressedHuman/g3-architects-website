@@ -108,6 +108,36 @@ main {
     font-weight: 700;
 }
 
+/* facts section styles */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container .card-stats {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facts-card-container .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
